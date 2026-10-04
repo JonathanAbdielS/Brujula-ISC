@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Brújula ISC · ITCG</title>
+  <meta name="description" content="Asistente conversacional de la carrera de Ingeniería en Sistemas Computacionales del ITCG.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">🧭</span>
+      <div>
+        <h1>Brújula ISC</h1>
+        <p>Tu guía de Ingeniería en Sistemas Computacionales del ITCG</p>
+      </div>
+    </div>
+    <button class="toggle-panel" id="togglePanel" aria-controls="panel" aria-expanded="false">Mi retícula</button>
+  </header>
+
+  <main class="layout">
+    <section class="chat" aria-label="Conversación">
+      <div class="log" id="log" aria-live="polite">
+        <div class="msg bot intro">
+          <div class="bubble">
+            <p>Hola, soy <strong>Brújula</strong>. Puedo explicarte la retícula de la carrera, calcular cuántos créditos llevas y recomendarte un área de especialidad según lo que te gusta.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="suggestions" id="suggestions">
+        <button type="button">¿Qué materias se llevan en 5.º semestre?</button>
+        <button type="button">Aprobé de 1.º a 6.º y el servicio social, ¿cuánto llevo?</button>
+        <button type="button">Me gustan los robots y la IA, ¿qué especialidad me conviene?</button>
+        <button type="button">¿Qué necesito para hacer la residencia profesional?</button>
+      </div>
+
+      <div class="composer">
+        <label for="input" class="sr-only">Escribe tu pregunta</label>
+        <textarea id="input" rows="1" maxlength="1500" placeholder="Pregunta sobre la carrera…"></textarea>
+        <button id="send" type="button">Enviar</button>
+      </div>
+    </section>
+
+    <aside class="panel" id="panel" aria-label="Retícula y avance">
+      <div class="panel-head">
+        <h2>Mi retícula</h2>
+        <p>Toca las materias que ya aprobaste y calcula tu avance. Las de borde ámbar son de la especialidad <strong>Tecnologías de la Inteligencia Artificial</strong>.</p>
+      </div>
+
+      <div class="gauge" aria-label="Avance de créditos">
+        <div class="gauge-bar" id="gaugeBar"><span id="gaugeFill"></span></div>
+        <p class="gauge-text"><strong id="gaugeCred">0</strong> de 260 créditos <span id="gaugePct">(0 %)</span></p>
+      </div>
+
+      <div class="semesters" id="semesters"></div>
+
+      <fieldset class="extras">
+        <legend>Además ya tengo</legend>
+        <label><input type="checkbox" id="ss"> Servicio social</label>
+        <label><input type="checkbox" id="res"> Residencia profesional</label>
+        <label><input type="checkbox" id="ac"> Actividades complementarias</label>
+      </fieldset>
+
+      <div class="panel-actions">
+        <button id="calc" type="button" class="primary">Calcular mi avance</button>
+        <button id="clear" type="button" class="ghost">Limpiar</button>
+      </div>
+    </aside>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

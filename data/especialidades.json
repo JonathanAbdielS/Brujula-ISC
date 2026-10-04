@@ -1,0 +1,216 @@
+{
+  "especialidad_vigente": {
+    "nombre": "Tecnologías de la Inteligencia Artificial",
+    "clave": "ISIE-TIA-2025-01",
+    "vigencia": "agosto 2025 a agosto 2027",
+    "descripcion": "Única especialidad vigente de ISC en el ITCG. Forma en aprendizaje automático, visión artificial, procesamiento de lenguaje natural, aprendizaje profundo e Internet de las Cosas.",
+    "materias": [
+      "Aprendizaje Automático (8.º)",
+      "Visión Artificial (8.º)",
+      "Procesamiento de Lenguaje Natural (9.º)",
+      "Aprendizaje Profundo (9.º)",
+      "Internet de las Cosas (9.º)"
+    ],
+    "creditos": 25
+  },
+  "nota": "Los perfiles no son especialidades distintas: sirven para orientar residencia, proyectos, servicio social y formación extra dentro de la especialidad vigente.",
+  "perfiles": [
+    {
+      "id": "web-movil",
+      "nombre": "Desarrollo web y móvil",
+      "descripcion": "Construcción de aplicaciones web y móviles completas: interfaces, APIs, bases de datos y despliegue.",
+      "palabras_clave": [
+        "web",
+        "pagina",
+        "paginas",
+        "frontend",
+        "backend",
+        "full stack",
+        "fullstack",
+        "movil",
+        "moviles",
+        "android",
+        "ios",
+        "app",
+        "apps",
+        "aplicaciones",
+        "react",
+        "javascript",
+        "html",
+        "css",
+        "interfaces",
+        "ux",
+        "ui",
+        "diseno",
+        "api",
+        "apis",
+        "node"
+      ],
+      "materias_relacionadas": [
+        "Programación Web",
+        "Tópicos Avanzados de Programación",
+        "Taller de Base de Datos",
+        "Ingeniería de Software",
+        "Procesamiento de Lenguaje Natural"
+      ],
+      "campo_laboral": [
+        "Desarrollador full-stack",
+        "Desarrollador móvil",
+        "Desarrollador frontend o backend"
+      ]
+    },
+    {
+      "id": "redes-seguridad",
+      "nombre": "Redes, infraestructura y ciberseguridad",
+      "descripcion": "Diseño y administración de redes, servidores y servicios en la nube, con enfoque en seguridad.",
+      "palabras_clave": [
+        "redes",
+        "red",
+        "seguridad",
+        "ciberseguridad",
+        "hacking",
+        "pentesting",
+        "servidores",
+        "servidor",
+        "linux",
+        "cisco",
+        "ccna",
+        "infraestructura",
+        "nube",
+        "cloud",
+        "devops",
+        "vps",
+        "docker",
+        "sistemas operativos",
+        "telecomunicaciones"
+      ],
+      "materias_relacionadas": [
+        "Fundamentos de Telecomunicaciones",
+        "Redes de Computadoras",
+        "Conmutación y Enrutamiento en Redes de Datos",
+        "Administración de Redes",
+        "Taller de Sistemas Operativos"
+      ],
+      "campo_laboral": [
+        "Administrador de redes",
+        "Analista de ciberseguridad",
+        "Ingeniero DevOps o de nube"
+      ]
+    },
+    {
+      "id": "ia-datos",
+      "nombre": "Inteligencia artificial y ciencia de datos",
+      "descripcion": "Modelos que aprenden de datos: aprendizaje automático, visión por computadora, agentes y análisis de datos.",
+      "palabras_clave": [
+        "ia",
+        "inteligencia artificial",
+        "machine learning",
+        "aprendizaje automatico",
+        "datos",
+        "data",
+        "estadistica",
+        "vision",
+        "vision artificial",
+        "vision por computadora",
+        "redes neuronales",
+        "deep learning",
+        "chatbot",
+        "chatbots",
+        "agentes",
+        "llm",
+        "python",
+        "analisis de datos",
+        "matematicas"
+      ],
+      "materias_relacionadas": [
+        "Aprendizaje Automático",
+        "Aprendizaje Profundo",
+        "Procesamiento de Lenguaje Natural",
+        "Visión Artificial",
+        "Probabilidad y Estadística"
+      ],
+      "campo_laboral": [
+        "Ingeniero de machine learning",
+        "Científico o analista de datos",
+        "Desarrollador de visión por computadora"
+      ]
+    },
+    {
+      "id": "embebidos-iot",
+      "nombre": "Sistemas embebidos e IoT",
+      "descripcion": "Software que corre pegado al hardware: microcontroladores, sensores, robótica y dispositivos conectados.",
+      "palabras_clave": [
+        "microcontroladores",
+        "microcontrolador",
+        "arduino",
+        "esp32",
+        "msp430",
+        "raspberry",
+        "robotica",
+        "robot",
+        "robots",
+        "iot",
+        "internet de las cosas",
+        "sensores",
+        "electronica",
+        "hardware",
+        "ensamblador",
+        "embebidos",
+        "embebido",
+        "automatizacion",
+        "circuitos"
+      ],
+      "materias_relacionadas": [
+        "Internet de las Cosas",
+        "Sistemas Programables",
+        "Lenguajes de Interfaz",
+        "Arquitectura de Computadoras",
+        "Principios Eléctricos y Aplicaciones Digitales"
+      ],
+      "campo_laboral": [
+        "Desarrollador de firmware",
+        "Ingeniero IoT",
+        "Integrador de automatización"
+      ]
+    },
+    {
+      "id": "software-bd",
+      "nombre": "Ingeniería de software y bases de datos",
+      "descripcion": "Análisis, diseño y gestión de sistemas de información para organizaciones, con bases de datos robustas.",
+      "palabras_clave": [
+        "bases de datos",
+        "base de datos",
+        "sql",
+        "mysql",
+        "postgres",
+        "arquitectura de software",
+        "gestion de proyectos",
+        "proyectos",
+        "scrum",
+        "agil",
+        "calidad",
+        "pruebas",
+        "testing",
+        "empresas",
+        "erp",
+        "sistemas de informacion",
+        "analisis",
+        "requerimientos",
+        "liderazgo"
+      ],
+      "materias_relacionadas": [
+        "Fundamentos de Base de Datos",
+        "Taller de Base de Datos",
+        "Administración de Base de Datos",
+        "Fundamentos de Ingeniería de Software",
+        "Ingeniería de Software",
+        "Gestión de Proyectos de Software"
+      ],
+      "campo_laboral": [
+        "Administrador de bases de datos",
+        "Analista de sistemas",
+        "Líder de proyecto de software"
+      ]
+    }
+  ]
+}
